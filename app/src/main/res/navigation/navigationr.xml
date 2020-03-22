@@ -9,7 +9,11 @@
         android:id="@+id/inicio"
         android:name="com.example.laboratorio8.inicio"
         android:label="fragment_inicio"
-        tools:layout="@layout/fragment_inicio" />
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_repositorios"
+            app:destination="@id/repositorios" />
+    </fragment>
     <fragment
         android:id="@+id/repositorios"
         android:name="com.example.laboratorio8.repositorios"
